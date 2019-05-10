@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{CBB57494-79D6-4D96-A239-F2F766F49485}</ProjectGuid>
+    <RootNamespace>GUITesting</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\..\GUITesting\GUITesting\External\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\GUITesting\GUITesting\External\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Tvorba\Programovanie\EllaAcademy\C++\GUITesting\GUITesting\External\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Tvorba\Programovanie\EllaAcademy\C++\GUITesting\GUITesting\External\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\GUITesting\GUITesting\External\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>sfml-audio-d.lib;sfml-main-d.lib;sfml-graphics-d.lib;sfml-network-d.lib;sfml-system-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\GUITesting\GUITesting\External\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\GUITesting\GUITesting\External\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-audio-d.lib;sfml-main-d.lib;sfml-graphics-d.lib;sfml-network-d.lib;sfml-system-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\GUITesting\GUITesting\External\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="BrainBuffer.cpp" />
+    <ClCompile Include="Buton.cpp" />
+    <ClCompile Include="Canvas.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="DebugClass.cpp" />
+    <ClCompile Include="DebugMethod.cpp" />
+    <ClCompile Include="DebugWindow.cpp" />
+    <ClCompile Include="EllaDownloadProcess.cpp" />
+    <ClCompile Include="EllaRunProcess.cpp" />
+    <ClCompile Include="EllaAi.cpp" />
+    <ClCompile Include="FTPprotocol.cpp" />
+    <ClCompile Include="GridBox.cpp" />
+    <ClCompile Include="GuiElement.cpp" />
+    <ClCompile Include="HBox.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="LauncherBrain.cpp" />
+    <ClCompile Include="LauncherWindow.cpp" />
+    <ClCompile Include="Layout.cpp" />
+    <ClCompile Include="LinearLayout.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ObjectShell.cpp" />
+    <ClCompile Include="Orders.cpp" />
+    <ClCompile Include="PipeClient.cpp" />
+    <ClCompile Include="PipeServer.cpp" />
+    <ClCompile Include="PopUpWindow.cpp" />
+    <ClCompile Include="ProcesInterface.cpp" />
+    <ClCompile Include="ProgressBar.cpp" />
+    <ClCompile Include="ReactableArray.cpp" />
+    <ClCompile Include="Renderable.cpp" />
+    <ClCompile Include="LancherStart.cpp" />
+    <ClCompile Include="ScrollBar.cpp" />
+    <ClCompile Include="ScrollLayout.cpp" />
+    <ClCompile Include="Starter.cpp" />
+    <ClCompile Include="AppWindow.cpp" />
+    <ClCompile Include="StaticManager.cpp" />
+    <ClCompile Include="StringArraysAnalyzer.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="TestObject.cpp" />
+    <ClCompile Include="OptionBar.cpp" />
+    <ClCompile Include="TextArea.cpp" />
+    <ClCompile Include="VBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="EllaDownloadProcess.h" />
+    <ClInclude Include="EllaRunProcess.h" />
+    <ClInclude Include="FTPprotocol.h" />
+    <ClInclude Include="GridBox.h" />
+    <ClInclude Include="HBox.h" />
+    <ClInclude Include="LauncherBrain.h" />
+    <ClInclude Include="LauncherWindow.h" />
+    <ClInclude Include="Layout.h" />
+    <ClInclude Include="LinearLayout.h" />
+    <ClInclude Include="ObjectShell.h" />
+    <ClInclude Include="Poses.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="BrainBuffer.h" />
+    <ClInclude Include="Buton.h" />
+    <ClInclude Include="Canvas.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="DebugClass.h" />
+    <ClInclude Include="DebugMethod.h" />
+    <ClInclude Include="DebugWindow.h" />
+    <ClInclude Include="EllaAi.h" />
+    <ClInclude Include="Fonts.h" />
+    <ClInclude Include="GuiElement.h" />
+    <ClInclude Include="IEventAcceptable.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Orders.h" />
+    <ClInclude Include="PipeClient.h" />
+    <ClInclude Include="PipeServer.h" />
+    <ClInclude Include="PopUpWindow.h" />
+    <ClInclude Include="ProcesInterface.h" />
+    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="ReactableArray.h" />
+    <ClInclude Include="Renderable.h" />
+    <ClInclude Include="AppWindow.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ScrollBar.h" />
+    <ClInclude Include="ScrollLayout.h" />
+    <ClInclude Include="Sp.h" />
+    <ClInclude Include="StaticManager.h" />
+    <ClInclude Include="StringArraysAnalyzer.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="TestObject.h" />
+    <ClInclude Include="OptionBar.h" />
+    <ClInclude Include="TextArea.h" />
+    <ClInclude Include="VBox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GUITesting.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="LoginManager">
+      <UniqueIdentifier>{9c51cd81-e0d9-415c-a6b6-f483fbf97e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetworkManagement">
+      <UniqueIdentifier>{793b6f16-4bc8-455c-bcd8-0c3fbce5a82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SerializationManager">
+      <UniqueIdentifier>{74c3cf09-24de-4c5d-bb5c-da3d32a1f765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DatabaseManager">
+      <UniqueIdentifier>{18fa58db-9f83-4223-aeb2-392524fb8706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineElements">
+      <UniqueIdentifier>{0c45ea9f-2cfd-4a23-be82-ce51b0bffbd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LoginManager.cpp">
+      <Filter>LoginManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginGui.cpp">
+      <Filter>LoginManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupCollection.cpp">
+      <Filter>EngineElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>DatabaseManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoginManager.h">
+      <Filter>LoginManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginGui.h">
+      <Filter>LoginManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupCollection.h">
+      <Filter>EngineElements</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

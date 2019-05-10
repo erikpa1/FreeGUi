@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Gui">
+      <UniqueIdentifier>{72bf6a7d-7e0c-4bbb-bf97-c12b2f30a69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\Window">
+      <UniqueIdentifier>{bb4bf226-ad1b-4f48-add6-65261740555c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\Buton">
+      <UniqueIdentifier>{d138e882-eec2-42d7-9e66-4e2446a3815b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\Layout">
+      <UniqueIdentifier>{f1c98f9f-234f-4a1c-aaa3-d6f5baed585b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\Memory">
+      <UniqueIdentifier>{9bc4b568-fcc2-4805-8d38-aef1923a0974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\Text">
+      <UniqueIdentifier>{e8403300-fe3d-4bcc-aa8b-bcffbdd9fe24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\EventListeners">
+      <UniqueIdentifier>{7afeb5f3-4cfa-408f-aea1-4e56a5100c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\Data">
+      <UniqueIdentifier>{e10866fc-f4dd-4506-99bd-96acee12d257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\Bars">
+      <UniqueIdentifier>{2f404f8b-7cd7-4428-a49d-bcd10c4d1a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{43fb6577-2851-4ee8-a125-605777d4f765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\3D">
+      <UniqueIdentifier>{9550ba77-c7f5-49d1-b402-4e6bdc9a93ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\SpecialElements">
+      <UniqueIdentifier>{bd7cc82b-3479-4d5d-9ab6-012b554db3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\CoreObjects">
+      <UniqueIdentifier>{2bab65e2-d61e-46bc-a5b3-ea6099e518fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\resource.h">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Application.h">
+      <Filter>Header Files\Gui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\AppWindow.h">
+      <Filter>Header Files\Gui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Buton.h">
+      <Filter>Header Files\Gui\Buton</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\EventReactable.h">
+      <Filter>Header Files\Gui\EventListeners</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Fonts.h">
+      <Filter>Header Files\Gui\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\IEventAcceptable.h">
+      <Filter>Header Files\Gui\EventListeners</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Label.h">
+      <Filter>Header Files\Gui\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Layout.h">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\LinearLayout.h">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\MouseEvents.h">
+      <Filter>Header Files\Gui\EventListeners</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\ObjectShell.h">
+      <Filter>Header Files\Gui\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Sp.h">
+      <Filter>Header Files\Gui\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\PopUpWindow.h">
+      <Filter>Header Files\Gui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Poses.h">
+      <Filter>Header Files\Gui\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\PositionCalculations.h">
+      <Filter>Header Files\Gui\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\ProgressBar.h">
+      <Filter>Header Files\Gui\Bars</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\ScrollBar.h">
+      <Filter>Header Files\Gui\Bars</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\ScrollLayout.h">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\TextArea.h">
+      <Filter>Header Files\Gui\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\OptionBar.h">
+      <Filter>Header Files\Gui\Bars</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TextField.h">
+      <Filter>Header Files\Gui\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardReciever.h">
+      <Filter>Header Files\Gui\EventListeners</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\Gui\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshData.h">
+      <Filter>Header Files\Gui\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\VBox.h">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Box.h">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\GridBox.h">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\HBox.h">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiPair.h">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Fragment.h">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="FragmentLayout.h">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizeBox.h">
+      <Filter>Header Files\Gui\SpecialElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Variable.h">
+      <Filter>Header Files\Gui\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Renderable.h">
+      <Filter>Header Files\Gui\CoreObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\GuiElement.h">
+      <Filter>Header Files\Gui\CoreObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppWindow.cpp">
+      <Filter>Header Files\Gui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Header Files\Gui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUpWindow.cpp">
+      <Filter>Header Files\Gui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Header Files\Gui\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="TextArea.cpp">
+      <Filter>Header Files\Gui\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout.cpp">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearLayout.cpp">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollLayout.cpp">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectShell.cpp">
+      <Filter>Header Files\Gui\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionBar.cpp">
+      <Filter>Header Files\Gui\Bars</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Header Files\Gui\Bars</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollBar.cpp">
+      <Filter>Header Files\Gui\Bars</Filter>
+    </ClCompile>
+    <ClCompile Include="Buton.cpp">
+      <Filter>Header Files\Gui\Buton</Filter>
+    </ClCompile>
+    <ClCompile Include="TextField.cpp">
+      <Filter>Header Files\Gui\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Header Files\Gui\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshData.cpp">
+      <Filter>Header Files\Gui\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="GridBox.cpp">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="HBox.cpp">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="VBox.cpp">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPair.cpp">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Frament.cpp">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="FragmentLayout.cpp">
+      <Filter>Header Files\Gui\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizeBox.cpp">
+      <Filter>Header Files\Gui\SpecialElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Variable.cpp">
+      <Filter>Header Files\Gui\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Header Files\Gui\CoreObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiElement.cpp">
+      <Filter>Header Files\Gui\CoreObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

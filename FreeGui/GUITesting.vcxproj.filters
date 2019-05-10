@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{f1d15f09-4568-4517-b1db-2077c2952800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{246fa58a-ed2a-42e5-8136-969b2e258a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\DataStructures">
+      <UniqueIdentifier>{494c96cd-f0f3-4d5b-aa96-28fbe748b710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\FileManagement">
+      <UniqueIdentifier>{4ae25d4e-e1de-4731-a1c4-e0d11cf6533e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking">
+      <UniqueIdentifier>{63b626cc-51f8-4f14-b28c-533b6bfa0e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NamedPipeline">
+      <UniqueIdentifier>{d4dbf68a-84c6-457f-9830-43dbfec3852b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{bf238424-7372-4a4f-91e4-e1ac43ef9e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Video">
+      <UniqueIdentifier>{0440b3f0-59d7-46ee-927d-448023e613d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStreams">
+      <UniqueIdentifier>{672b077b-2713-4182-b371-34f698dfbc3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DebugWindow">
+      <UniqueIdentifier>{49942ae0-9832-4deb-ba31-ac139d9e30a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventHandler">
+      <UniqueIdentifier>{708e83b5-3d5c-46a9-88ad-28530db93173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui">
+      <UniqueIdentifier>{b444872a-3f04-4aeb-9153-ff1d3e0781dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\SDKtools">
+      <UniqueIdentifier>{5d05b6e8-9dc7-42ed-887b-c8701b3f6b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiElements">
+      <UniqueIdentifier>{f34a36f4-ec8a-4c90-9dff-8ef5ad4f9385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiElements\GuiContainer">
+      <UniqueIdentifier>{f671c3ef-baa9-4e33-be14-c046218a31d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiWindow">
+      <UniqueIdentifier>{e4af9969-d7d0-4237-807b-c35977c3b487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\QuickWindow">
+      <UniqueIdentifier>{c47f4fda-ad51-4b66-bd41-45f3668bfd69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiElements\Menu">
+      <UniqueIdentifier>{c2f34619-748e-4302-acdc-76db7ca66c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiElements\TextViews">
+      <UniqueIdentifier>{0481e5f4-eff3-4b09-85a7-73369d956a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiElements\Buttons">
+      <UniqueIdentifier>{50cda58f-d7fd-452d-9f62-604fda63ca29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiElements\Definitions">
+      <UniqueIdentifier>{67996f65-00e9-468c-95ec-82d895b58305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher">
+      <UniqueIdentifier>{38d0f5aa-ed88-49e4-90a2-95b9f91f1c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiElements\GuiInterfaces">
+      <UniqueIdentifier>{d829c4ec-820d-42fe-b40b-a7460068d18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiElements\ToolBar">
+      <UniqueIdentifier>{a03d1916-9a36-4fdc-aa27-0543fdb85b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiElements\GuiContainer\Box">
+      <UniqueIdentifier>{2c186cbd-da89-405b-b8b8-b5339062b3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataExport">
+      <UniqueIdentifier>{1a333daa-ba60-4c61-b78e-cf7f0f2905df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataExport\PngWritter">
+      <UniqueIdentifier>{36fa347f-2613-4eb2-9f11-ed22c8752375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher\MainGui">
+      <UniqueIdentifier>{be0b0468-68dc-4ac2-b2e1-b2fd9f11e724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher\FTP">
+      <UniqueIdentifier>{d807ca9b-d69e-46d9-a473-c6729da25c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiElements\Canvas">
+      <UniqueIdentifier>{7fa99a86-5897-481c-8d58-337976b86fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{52d161c9-fe87-43d8-b698-cb7b06535fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher\Core">
+      <UniqueIdentifier>{90cefb68-c79c-427f-98c8-7dd1dbdeed78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher\Proces">
+      <UniqueIdentifier>{0c0aa3ed-42af-4489-840a-35d4cf4e752c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\GuiElements\Bars">
+      <UniqueIdentifier>{ff4b7de2-1308-4078-a6c7-77037247929a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PopUpWindow.cpp">
+      <Filter>Source Files\Gui\QuickWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="AppWindow.cpp">
+      <Filter>Source Files\Gui\GuiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EllaAi.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Orders.cpp">
+      <Filter>Source Files\AI\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainBuffer.cpp">
+      <Filter>Source Files\AI\FileManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="StringArraysAnalyzer.cpp">
+      <Filter>Source Files\AI\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Source Files\AI\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\AI\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugWindow.cpp">
+      <Filter>Source Files\DebugWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugClass.cpp">
+      <Filter>Source Files\DebugWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugMethod.cpp">
+      <Filter>Source Files\DebugWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeClient.cpp">
+      <Filter>Source Files\NamedPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeServer.cpp">
+      <Filter>Source Files\NamedPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactableArray.cpp">
+      <Filter>Source Files\EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files\Gui\GuiElements\TextViews</Filter>
+    </ClCompile>
+    <ClCompile Include="Buton.cpp">
+      <Filter>Source Files\Gui\GuiElements\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Source Files\Gui\GuiElements\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticManager.cpp">
+      <Filter>Source Files\DebugWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Source Files\Gui\GuiElements\GuiInterfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiElement.cpp">
+      <Filter>Source Files\Gui\GuiElements\GuiInterfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="VBox.cpp">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="HBox.cpp">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="GridBox.cpp">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionBar.cpp">
+      <Filter>Source Files\Gui\GuiElements\ToolBar</Filter>
+    </ClCompile>
+    <ClCompile Include="TextArea.cpp">
+      <Filter>Source Files\Gui\GuiElements\TextViews</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Source Files\Gui\GuiElements\Bars</Filter>
+    </ClCompile>
+    <ClCompile Include="LancherStart.cpp">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="LauncherWindow.cpp">
+      <Filter>Launcher\MainGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectShell.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="LauncherBrain.cpp">
+      <Filter>Launcher\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EllaRunProcess.cpp">
+      <Filter>Launcher\Proces</Filter>
+    </ClCompile>
+    <ClCompile Include="EllaDownloadProcess.cpp">
+      <Filter>Launcher\Proces</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcesInterface.cpp">
+      <Filter>Launcher\Proces</Filter>
+    </ClCompile>
+    <ClCompile Include="FTPprotocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Starter.cpp">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearLayout.cpp">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout.cpp">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollLayout.cpp">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollBar.cpp">
+      <Filter>Source Files\Gui\GuiElements\Bars</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PopUpWindow.h">
+      <Filter>Source Files\Gui\QuickWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="AppWindow.h">
+      <Filter>Source Files\Gui\GuiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="EllaAi.h">
+      <Filter>Source Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Orders.h">
+      <Filter>Source Files\AI\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainBuffer.h">
+      <Filter>Source Files\AI\FileManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="StringArraysAnalyzer.h">
+      <Filter>Source Files\AI\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Source Files\AI\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Source Files\AI\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Source Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugWindow.h">
+      <Filter>Source Files\DebugWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugClass.h">
+      <Filter>Source Files\DebugWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMethod.h">
+      <Filter>Source Files\DebugWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>Source Files\Gui\SDKtools</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeClient.h">
+      <Filter>Source Files\NamedPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeServer.h">
+      <Filter>Source Files\NamedPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventAcceptable.h">
+      <Filter>Source Files\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="ReactableArray.h">
+      <Filter>Source Files\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Source Files\Gui\GuiElements\TextViews</Filter>
+    </ClInclude>
+    <ClInclude Include="Buton.h">
+      <Filter>Source Files\Gui\GuiElements\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Source Files\Gui\GuiElements\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="Poses.h">
+      <Filter>Source Files\Gui\GuiElements\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticManager.h">
+      <Filter>Source Files\DebugWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Source Files\Gui\GuiElements\GuiInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiElement.h">
+      <Filter>Source Files\Gui\GuiElements\GuiInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout.h">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="VBox.h">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="HBox.h">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="GridBox.h">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionBar.h">
+      <Filter>Source Files\Gui\GuiElements\ToolBar</Filter>
+    </ClInclude>
+    <ClInclude Include="TextArea.h">
+      <Filter>Source Files\Gui\GuiElements\TextViews</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Source Files\Gui\GuiElements\Bars</Filter>
+    </ClInclude>
+    <ClInclude Include="LauncherWindow.h">
+      <Filter>Launcher\MainGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Sp.h">
+      <Filter>Source Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectShell.h">
+      <Filter>Source Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="LauncherBrain.h">
+      <Filter>Launcher\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EllaRunProcess.h">
+      <Filter>Launcher\Proces</Filter>
+    </ClInclude>
+    <ClInclude Include="EllaDownloadProcess.h">
+      <Filter>Launcher\Proces</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcesInterface.h">
+      <Filter>Launcher\Proces</Filter>
+    </ClInclude>
+    <ClInclude Include="FTPprotocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearLayout.h">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollLayout.h">
+      <Filter>Source Files\Gui\GuiElements\GuiContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollBar.h">
+      <Filter>Source Files\Gui\GuiElements\Bars</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GUITesting.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
