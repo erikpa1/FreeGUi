@@ -3,6 +3,7 @@
 #include "GuiElement.h"
 #include "Sp.h"
 #include "AppWindow.h"
+#include "../FreeGui/ObjectShell.h"
 
 class PopupCollection : public ObjectShell
 {

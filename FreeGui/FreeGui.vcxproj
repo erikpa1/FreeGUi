@@ -177,7 +177,6 @@
     <ClInclude Include="Gui\Layout.h" />
     <ClInclude Include="Gui\LinearLayout.h" />
     <ClInclude Include="Gui\MouseEvents.h" />
-    <ClInclude Include="Gui\ObjectShell.h" />
     <ClInclude Include="Gui\OptionBar.h" />
     <ClInclude Include="Gui\PopUpWindow.h" />
     <ClInclude Include="Gui\Poses.h" />
@@ -194,6 +193,7 @@
     <ClInclude Include="KeyboardReciever.h" />
     <ClInclude Include="Math.h" />
     <ClInclude Include="MeshData.h" />
+    <ClInclude Include="ObjectShell.h" />
     <ClInclude Include="ResizeBox.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />

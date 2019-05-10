@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/OptionBar.h"
+#include "OptionBar.h"
 
 OptionBar::OptionBar(int x, int y, int w, int h) : GuiElement(x, y, w, h)
 {

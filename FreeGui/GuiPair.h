@@ -1,6 +1,6 @@
 #pragma once
-#include "Gui/GuiElement.h"
-#include "Gui/Definitions.h"
+#include "GuiElement.h"
+#include "Definitions.h"
 
 class EXPORT GuiPair : public GuiElement
 {

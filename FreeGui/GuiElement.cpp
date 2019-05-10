@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/GuiElement.h"
+#include "GuiElement.h"
 
 GuiElement::GuiElement(int x, int y, int w, int h) : Renderable(x, y, w, h)
 {

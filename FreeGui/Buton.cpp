@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/Buton.h"
+#include "Buton.h"
 
 #define COLOR_DIFFERENCE 10
 

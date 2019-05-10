@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/ScrollBar.h"
+#include "ScrollBar.h"
 #include <iostream>
 
 

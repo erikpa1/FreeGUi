@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/ProgressBar.h"
+#include "ProgressBar.h"
 
 
 ProgressBar::ProgressBar(int x, int y, int w, int h) : GuiElement(x, y, w, h)

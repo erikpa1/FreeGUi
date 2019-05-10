@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/GridBox.h"
+#include "GridBox.h"
 
 GridBox::GridBox(int x, int y, int w, int h) : GuiElement(x, y, w, h)
 {

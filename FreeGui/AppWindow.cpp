@@ -1,16 +1,16 @@
 #include "stdafx.h"
-#include "Gui/AppWindow.h"
+#include "AppWindow.h"
 #include <glew.h>
 
 AppWindow::AppWindow(int x, int y, int w, int h, string appName) : Renderable(x, y, w, h)
 {
 	_window = new RenderWindow(VideoMode(w, h), appName);
-	_window->setPosition(Vector2i(x,y));
+	_window->setPosition(Vector2i(x, y));
 	_window->setActive(true);
-	
+
 	//_world = new World(0, 400, 400, 600);
 	//_world->SetRenderer(_window);
-	
+
 }
 
 AppWindow::~AppWindow()
@@ -98,7 +98,7 @@ void AppWindow::ParticalTick()
 		_window->pushGLStates();
 		_window->popGLStates();
 	}
-	
+
 
 	for (auto i = 0; i < this->_renderableObjects.size(); i++)
 	{
@@ -110,13 +110,13 @@ void AppWindow::ParticalTick()
 }
 
 
-void AppWindow::HandleEvents(Event &event)
+void AppWindow::HandleEvents(Event& event)
 {
 	if (event.type == Event::Resized)
 	{
 		for (auto tmp : _renderableObjects)
 		{
-			tmp->RecalculateYourSelf();			
+			tmp->RecalculateYourSelf();
 		}
 	}
 	for (auto tmp : _renderableObjects)

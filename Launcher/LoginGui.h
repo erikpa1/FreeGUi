@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include "PopupCollection.h"
 #include "Label.h"
-#include "../FreeGui/TextField.h"
-#include "../FreeGui/GuiPair.h"
+#include "FreeGui/TextField.h"
+#include "FreeGui/GuiPair.h"
 
 class AppWindow;
 

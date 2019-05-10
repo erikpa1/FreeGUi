@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/Box.h"
+#include "Box.h"
 
 void Box::Draw()
 {

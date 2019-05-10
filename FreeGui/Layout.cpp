@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/Layout.h"
+#include "Layout.h"
 
 
 Layout::Layout(int x, int y, int w, int h) : GuiElement(x, y, w, h)

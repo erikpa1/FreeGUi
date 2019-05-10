@@ -1,6 +1,6 @@
 #include "stdafx.h"
-#include "Gui/PopUpWindow.h"
-#include "Gui/AppWindow.h"
+#include "PopUpWindow.h"
+#include "AppWindow.h"
 
 PopUpWindow::PopUpWindow()
 {

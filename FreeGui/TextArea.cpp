@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/TextArea.h"
+#include "TextArea.h"
 
 TextArea::TextArea(int x, int y, int w, int h) : GuiElement(x, y, w, h)
 {

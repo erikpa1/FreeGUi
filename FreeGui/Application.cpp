@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/Application.h"
+#include "Application.h"
 #include "GL/glew.h"
 
 Application::Application()

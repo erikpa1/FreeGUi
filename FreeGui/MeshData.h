@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "Gui/Renderable.h"
+#include "Renderable.h"
 
 
 class EXPORT MeshData : public Renderable

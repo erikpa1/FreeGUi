@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/LinearLayout.h"
+#include "LinearLayout.h"
 
 
 LinearLayout::LinearLayout(int x, int y, int w, int h) : Layout(x, y, w, h)

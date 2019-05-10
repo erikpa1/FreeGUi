@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "TextField.h"
-#include "Gui/Fonts.h"
+#include "Fonts.h"
 
 
 TextField::TextField(int x, int y, int w, int h) : GuiElement(x, y, w, h)

@@ -93,9 +93,6 @@
     <ClInclude Include="Gui\MouseEvents.h">
       <Filter>Header Files\Gui\EventListeners</Filter>
     </ClInclude>
-    <ClInclude Include="Gui\ObjectShell.h">
-      <Filter>Header Files\Gui\Memory</Filter>
-    </ClInclude>
     <ClInclude Include="Gui\Sp.h">
       <Filter>Header Files\Gui\Memory</Filter>
     </ClInclude>
@@ -174,6 +171,9 @@
     <ClInclude Include="Gui\GuiElement.h">
       <Filter>Header Files\Gui\CoreObjects</Filter>
     </ClInclude>
+    <ClInclude Include="ObjectShell.h">
+      <Filter>Header Files\Gui\Memory</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -205,9 +205,6 @@
     </ClCompile>
     <ClCompile Include="ScrollLayout.cpp">
       <Filter>Header Files\Gui\Layout</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjectShell.cpp">
-      <Filter>Header Files\Gui\Memory</Filter>
     </ClCompile>
     <ClCompile Include="OptionBar.cpp">
       <Filter>Header Files\Gui\Bars</Filter>
@@ -262,6 +259,9 @@
     </ClCompile>
     <ClCompile Include="GuiElement.cpp">
       <Filter>Header Files\Gui\CoreObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectShell.cpp">
+      <Filter>Header Files\Gui\Memory</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

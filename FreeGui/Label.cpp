@@ -1,6 +1,6 @@
 #include "stdafx.h"
-#include "Gui/Label.h"
-#include "Gui/Fonts.h"
+#include "Label.h"
+#include "Fonts.h"
 
 
 inline Label::Label() : GuiElement(0, 0, 0, 0)

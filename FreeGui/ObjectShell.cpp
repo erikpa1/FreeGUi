@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/ObjectShell.h"
+#include "ObjectShell.h"
 
 
 using namespace std;

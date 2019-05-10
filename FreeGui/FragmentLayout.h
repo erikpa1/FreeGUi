@@ -1,8 +1,8 @@
 #pragma once
 
-#include "Gui/Layout.h"
-#include "Gui/ScrollLayout.h"
-#include "Gui/LinearLayout.h"
+#include "Layout.h"
+#include "ScrollLayout.h"
+#include "LinearLayout.h"
 
 class EXPORT FragmentLayout : public Layout
 {

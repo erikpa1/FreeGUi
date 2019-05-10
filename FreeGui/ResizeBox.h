@@ -1,5 +1,5 @@
 #pragma once
-#include "Gui/GuiElement.h"
+#include "GuiElement.h"
 
 class EXPORT ResizeBox
 {

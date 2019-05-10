@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/ScrollLayout.h"
+#include "ScrollLayout.h"
 
 
 ScrollLayout::ScrollLayout(int x, int y, int w, int h) : Layout(x, y, w, h)

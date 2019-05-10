@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Gui/VBox.h"
+#include "VBox.h"
 
 
 VBox::VBox(int x, int y, int w, int h) : Box(x, y, w, h)
